@@ -9,7 +9,7 @@
     "util": "git://github.com/dojo/util.git#1.10.2"
   },
   "devDependencies": {
-    "intern": "^2.2.2"
+    "intern": "^3.1.0"
   },
   "scripts": {
     "test": "node node_modules/intern/bin/intern-runner.js config=test/intern reporters=runner reporters=lcovhtml"
