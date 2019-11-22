@@ -14,7 +14,7 @@
     "browserify": "5.10.1",
     "jade": "^1.7.0",
     "jadeify": "^2.7.0",
-    "watchify": "^2.0.0"
+    "watchify": "^3.0.0"
   },
   "scripts": {
     "build": "browserify js/app.js -t jadeify -o todomvc.bundle.js",
