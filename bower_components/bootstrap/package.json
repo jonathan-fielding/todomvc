@@ -33,7 +33,7 @@
     "btoa": "~1.1.2",
     "glob": "~4.0.2",
     "grunt": "~0.4.5",
-    "grunt-autoprefixer": "~0.7.6",
+    "grunt-autoprefixer": "~1.0.1",
     "grunt-banner": "~0.2.3",
     "grunt-contrib-clean": "~0.5.0",
     "grunt-contrib-concat": "~0.4.0",
@@ -56,7 +56,7 @@
     "grunt-sed": "~0.1.1",
     "load-grunt-tasks": "~0.6.0",
     "markdown": "~0.5.0",
-    "npm-shrinkwrap": "~3.1.6",
+    "npm-shrinkwrap": "~4.1.1",
     "time-grunt": "~0.3.2"
   },
   "engines": {
