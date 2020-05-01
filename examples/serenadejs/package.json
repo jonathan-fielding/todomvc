@@ -1,15 +1,19 @@
 {
   "private": true,
   "scripts": {
-    "compile": "coffee -co js/ js/"
+    "compile": "coffee -co js/ js/",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "director": "^1.2.0",
     "todomvc-common": "^1.0.1",
-    "todomvc-app-css": "^1.0.1"
+    "todomvc-app-css": "^1.0.1",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "serenade": "~0.4.0",
     "coffee-script": "~1.6.2"
-  }
+  },
+  "snyk": true
 }
