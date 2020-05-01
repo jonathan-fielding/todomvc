@@ -11,6 +11,12 @@
     "drool": "0.4.0"
   },
   "scripts": {
-    "test": "mocha allTests.js --no-timeouts --reporter spec"
+    "test": "mocha allTests.js --no-timeouts --reporter spec",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true,
+  "dependencies": {
+    "snyk": "^1.316.1"
   }
 }
