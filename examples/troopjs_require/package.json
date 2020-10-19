@@ -9,7 +9,7 @@
     "todomvc-common": "^1"
   },
   "devDependencies": {
-    "napa": "^1.2.0"
+    "napa": "^2.3.0"
   },
   "scripts": {
     "install": "napa"
