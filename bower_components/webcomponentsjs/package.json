@@ -23,6 +23,6 @@
     "gulp-header": "^1.1.1",
     "gulp-uglify": "^1.0.1",
     "run-sequence": "^1.0.1",
-    "web-component-tester": "^3"
+    "web-component-tester": "^6.4.0"
   }
 }
